@@ -6,7 +6,8 @@ class Students{
   double? cgpa;
   String? email;
 
-  static String course = "Flutter";
+  static String institute = "Luminar technolab";
+   static final String course = "flutter";
 
   }
 
@@ -46,5 +47,8 @@ class Students{
   print("phone   : ${st3.phone = 8574857009}");
   print("cgpa    : ${st3.cgpa= 3}");
   print("email   : ${st3.email = "amal@gmail.com"}");
+
+
+
 
 }
