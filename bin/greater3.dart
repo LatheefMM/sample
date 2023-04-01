@@ -1,6 +1,6 @@
 void main(){
   int a = 30;
-  int b = 22;
+  int b = 50;
   int c = 33;
   bool greater = (a>b) && (a>c) ? true:false;
   print(greater);
