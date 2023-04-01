@@ -1,8 +1,11 @@
+import 'dart:io';
+
 void main(){
-  int a = 30;
-  int b = 50;
-  int c = 33;
-  var greater = (a>b&&a>c)?"largest number is 30":(b>c)? "largest number is 50":"largest number is 33";
+  print('enter 3 values');
+  int a = int.parse(stdin.readLineSync()!);
+  int b = int.parse(stdin.readLineSync()!);
+  int c = int.parse(stdin.readLineSync()!);
+  var greater = (a>b&&a>c)?"largest number is $a":(b>c)? "largest number is $b":"largest number is $c";
   print(greater);
 
 
