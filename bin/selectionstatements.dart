@@ -73,40 +73,37 @@ void main() {
 
   ///else if ladder
 
-// print("enter your size");
-//   String size =stdin.readLineSync()!;
-//
-//   if(size=='s'){
-//     print("your shirt size is small,it is available");
-//   }else if(size == 'xl'){
-//     print("your shir size is extra large,it is avaialble");
-//   }else if(size == 'l'){
-//     print("your shirt size is large,it is available");
-//   }else if(size == 'xxl'){
-//     print("your shirt size is xxl,it is avaialble");
-//   }
-//   else{
-//     print("your shirt is not available");
-//   }
+print("enter your size");
+  String size =stdin.readLineSync()!;
 
-
-  ///switch case
-  int size =40;
-
-
-  switch(size){
-    case 28: print('your shirt size is small');
-             break;
-    case 2:print('your shirt size is large');
-           break;
-    case 3:print('your shirt is xl');
-           break;
-    case 40:print('your shirt size is xxl');
-           break;
-    default:print('your shirt size is not available');
-
+  if(size=='s'){
+    print("your shirt size is small,it is available");
+  }else if(size == 'xl'){
+    print("your shir size is extra large,it is avaialble");
+  }else if(size == 'l'){
+    print("your shirt size is large,it is available");
+  }else if(size == 'xxl'){
+    print("your shirt size is xxl,it is avaialble");
+  }
+  else{
+    print("your shirt is not available");
   }
 
 
+  ///switch case
+  // int size =40;
+  //
+  //
+  // switch(size){
+  //   case 28: print('your shirt size is small');
+  //            break;
+  //   case 2:print('your shirt size is large');
+  //          break;
+  //   case 3:print('your shirt is xl');
+  //          break;
+  //   case 40:print('your shirt size is xxl');
+  //          break;
+  //   default:print('your shirt size is not available');
 
-}
+  }
+
